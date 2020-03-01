@@ -6,7 +6,7 @@ public class CompoundInterest {
 	
 	private double interestRate;
 	
-	private int timeofInvestment;
+	private int timeOfInvestment;
 	
 	private int numberOfTimesInterestApplied;
 	
@@ -27,7 +27,7 @@ public class CompoundInterest {
 		
 		double amount=principleAmount*(Math.pow(1+interestRate/numberOfTimesInterestApplied, numberOfTimesInterestApplied*timeOfInvestment));
 		
-		double compoundIntrest=amount-principleAmount;
+		double compoundInterest=amount-principleAmount;
 		
 		return compoundInterest;
 	}
